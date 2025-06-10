@@ -5,7 +5,7 @@ kategorien = {
 }
 
 # Zuweisung eine neue Kategorie hinzufügen
-kategorien["getränke"] = ["Wasser", "Tee", "Saft"]
+kategorien["getränke"] = ["Wasser", "Tee", "Saft"] # ["getränke"] -> [] ist ein Subscription-Operator
 
 for kategorie, items in kategorien.items():
     print(f"{kategorie.capitalize()}:")

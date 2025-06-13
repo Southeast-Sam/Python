@@ -31,3 +31,15 @@
 - Schüler:innen nach Punktzahl bewerten (Note + Prädikat)
 - Punkte werden in Noten (1–5) mit Beschreibung ("Sehr gut" bis "Mangelhaft") umgewandelt
 - Verschachtelte `if-elif-else`-Logik innerhalb einer Dict Comprehension
+
+---
+
+### 5. `list_comprehension/fortgeschritten.py`
+
+- Fortgeschrittene Aufgaben zu List Comprehension
+- Themen:
+  - Verschachtelte Schleifen (nested loops)
+  - Bedingungen mit `and`, `if`
+  - Kombinationen von Listen (Tupel)
+  - Wörter rückwärts mit Bedingung
+  - Primzahlen mit `all()`-Funktion

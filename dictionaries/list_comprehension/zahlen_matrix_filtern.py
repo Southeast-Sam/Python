@@ -6,3 +6,4 @@ matrix = [
 ]
 matrix_gerade_zahlen = [[zahl for zahl in zeile if zahl % 2 == 0] for zeile in matrix]
 print("Matrix mit geraden Zahlen:", matrix_gerade_zahlen)
+

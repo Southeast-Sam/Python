@@ -8,8 +8,18 @@ Ich möchte Python lernen, weil ich es in meinen eigenen Projekten sinnvoll eins
 
 ## Lernziele
 
-- Wie funktioniert `input()` und `print()` in Python?
-- Was sind Variablen?
-- Wie schreibt man Kommentare und Pseudocode?
+- Verstehen, wie `input()` und `print()` funktionieren
+- Was sind Variablen und wie verwendet man sie?
+- Kommentare schreiben (`#`) und Pseudocode nutzen
 - Unterschied zwischen `list` und `tuple`
-- Vergleich Python vs. JavaScript
+- Vergleich Python vs. JavaScript – Gemeinsamkeiten und Unterschiede
+- Eigene Funktionen schreiben und verwenden
+- Bedingungen (`if`, `elif`, `else`) anwenden
+- Wiederholungen mit Schleifen (`for`, `while`)
+- Grundlagen für Projekte wie Text-Tools, Datenverarbeitung oder Automatisierung schaffen
+
+## Nächste Schritte
+
+- Weiter mit Funktionen, Dateien, Fehlerbehandlung
+- Erstes Mini-Projekt starten
+- Später Backend-Anwendungen mit Python

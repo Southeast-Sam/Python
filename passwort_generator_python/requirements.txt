@@ -1,0 +1,4 @@
+# requirements.txt
+# Dieses Projekt verwendet nur Python-Standardbibliotheken_
+# - random
+# - string

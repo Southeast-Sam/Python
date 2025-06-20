@@ -1,8 +1,8 @@
-import random
-import string
+import random   # Für zufällige Auswahl von Zeichen
+import string   # liefert vorgefertigte Zeichenlisten (ascii_uppercase, digits, etc.)
 
 def passwort_generator(laenge, grossbuchstaben=True, zahlen=True, sonderzeichen=True):
-    zeichen = list(string.ascii_uppercase)
+    zeichen = list(string.ascii_lowercase)
 
     if grossbuchstaben:
         zeichen += list(string.ascii_uppercase)
@@ -20,10 +20,10 @@ def passwort_generator(laenge, grossbuchstaben=True, zahlen=True, sonderzeichen=
 # Interaktiv testen
 try:
     laenge = int(input("Wie lang soll das Passswort sein? "))
-    gross = input("Großbuchstaben? (j/n): ").lower() == "j"
-    zahlen = input("Zahlen? (j/n): ").lower() == "j"
-    sonder = input("Sonderzeichen? (j/n): ").lower() == "j"
-
+    gross = input("Großbuchstaben? (ja/nein): ").lower() == "ja"
+    zahlen = input("Zahlen? (ja/nein): ").lower() == "ja"
+    sonder = input("Sonderzeichen? (ja/nein): ").lower() == "ja"
+    #Ausgabe
     print("Dein Passwort:", passwort_generator(laenge, gross, zahlen, sonder))
 except:
     print("⚠️ Ungültige Eingabe.")
